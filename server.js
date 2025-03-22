@@ -5,6 +5,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 10000;
 app.use(geoRouter);
+app.set("trust proxy", true);
 app
   .listen(port, () => {
     console.log(`server is ready on port ${port}`);
