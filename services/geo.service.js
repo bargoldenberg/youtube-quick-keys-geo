@@ -1,5 +1,6 @@
 import fetch from "node-fetch";
 import { LRUCache } from "../utils/LRU.js";
+
 export const getGeoData = async (ip) => {
   const cache = LRUCache.getInstance();
   if (!cache.has(ip)) {
@@ -8,9 +9,6 @@ export const getGeoData = async (ip) => {
     );
     const geoData = await res.json();
     cache.put(ip, geoData);
-    console.log("Cache MISS");
-  }else{
-    console.log("Cache HIT");
   }
   return cache.get(ip);
 };
