@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bargoldenberg/youtube-quick-keys-geo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bargoldenberg/youtube-quick-keys-geo/issues"
+  },
+  "homepage": "https://github.com/bargoldenberg/youtube-quick-keys-geo#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9"
+  }
+}
