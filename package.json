@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startDev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bargoldenberg/youtube-quick-keys-geo.git"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bargoldenberg/youtube-quick-keys-geo/issues"
   },
   "homepage": "https://github.com/bargoldenberg/youtube-quick-keys-geo#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "node-fetch": "^3.3.2",
     "nodemon": "^3.1.9"

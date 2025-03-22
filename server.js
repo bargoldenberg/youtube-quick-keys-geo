@@ -1,5 +1,7 @@
 import express from "express";
-import geoRouter from "routes/geo.route.js";
+import dotenv from "dotenv";
+import geoRouter from "./routes/geo.route.js";
+dotenv.config();
 const app = express();
 const port = 3000;
 app.use(geoRouter);

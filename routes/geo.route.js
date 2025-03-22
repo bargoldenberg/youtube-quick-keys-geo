@@ -1,5 +1,5 @@
 import express from "express";
-import { geo } from "../controllers/geo.controller";
+import { geo } from "../controllers/geo.controller.js";
 
 const router = express.Router();
 
