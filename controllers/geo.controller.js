@@ -1,4 +1,4 @@
-import { extractIPFromRequest } from "../../utils/requestUtils.mjs";
+import { extractIPFromRequest } from "../utils/requestUtils.mjs";
 import { getGeoData } from "../services/geo.service.js";
 export const geo = async (req, res) => {
   try {
